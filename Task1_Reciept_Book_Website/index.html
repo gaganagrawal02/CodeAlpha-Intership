@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Recipe Box</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Recipe Box</h1>
+    </header>
+    <main>
+        <section id="recipe-list">
+            <!-- Display recipes here -->
+        </section>
+        <section id="recipe-form">
+            <h2>Add a New Recipe</h2>
+            <form id="recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" required>
+                <label for="recipe-ingredients">Ingredients:</label>
+                <textarea id="recipe-ingredients" required></textarea>
+                <label for="recipe-instructions">Instructions:</label>
+                <textarea id="recipe-instructions" required></textarea>
+                <button type="submit">Add Recipe</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

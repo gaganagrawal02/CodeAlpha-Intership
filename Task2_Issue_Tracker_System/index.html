@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Issue Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="issue-form">
+        <h1>Issue Tracker</h1>
+        <input type="text" id="issueTitle" placeholder="Enter Issue Title">
+        <textarea id="issueDescription" placeholder="Enter Issue Description"></textarea>
+        <select id="prioritySelect">
+            <option value="low">Low Priority</option>
+            <option value="medium">Medium Priority</option>
+            <option value="high">High Priority</option>
+        </select>
+        <input type="file" id="fileInput">
+        <button onclick="createIssue()">Create Issue</button>
+    </div>
+
+    <div class="issue-list">
+        <h2>Issues</h2>
+        <ul id="issues"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
